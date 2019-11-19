@@ -1,0 +1,15 @@
+@font-face {
+    font-family: 'ringbearermedium';
+    src: url('media/webfontkit/ringm___-webfont.woff2') format('woff2'),
+         url('media/webfontkit/ringm___-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+h1 {
+	    font-family: 'ringbearermedium';
+    src: url('media/webfontkit/ringm___-webfont.woff2') format('woff2'),
+         url('media/webfontkit/ringm___-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
