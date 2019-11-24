@@ -1,0 +1,57 @@
+/* @font-face {
+    font-family: 'ringbearermedium';
+    src: url('media/webfontkit/ringm___-webfont.woff2') format('woff2'),
+         url('media/webfontkit/ringm___-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;}*/
+
+@font-face {
+font-family: "BeaufortforLOL-Bold";
+src: url("media/fonts/Beaufort for LOL Bold/12420e8c141ca7c3dff41de2d59df13e.eot");
+src: url("media/fonts/Beaufort for LOL Bold/12420e8c141ca7c3dff41de2d59df13e.eot?#iefix") format("embedded-opentype"),
+url("media/fonts/Beaufort for LOL Bold/12420e8c141ca7c3dff41de2d59df13e.woff2") format("woff2"),
+url("media/fonts/Beaufort for LOL Bold/12420e8c141ca7c3dff41de2d59df13e.woff") format("woff"),
+url("media/fonts/Beaufort for LOL Bold/12420e8c141ca7c3dff41de2d59df13e.ttf") format("truetype"),
+url("media/fonts/Beaufort for LOL Bold/12420e8c141ca7c3dff41de2d59df13e.svg#BeaufortforLOL-Bold") format("svg"); }
+
+body{
+    background-image: url("media/images/map-background.png"), url("media/images/black_background.png");
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: 150%;
+    color: white;
+}
+
+h1 {
+    font-family: 'BeaufortforLOL-Bold';
+    font-weight: normal;
+    font-style: normal;
+}
+
+h2{
+    font-family: 'BeaufortforLOL-Bold';
+}
+
+.pagetitle{
+  
+}
+
+.runeterra{
+    display: flex;
+    justify-content: center;
+}
+
+.region{
+    padding-top: 50px;
+    display: flex;   /* inline ? block ?*/
+justify-content: space-around;
+    align-items: center;
+    text-align: center;
+}
+
+/*
+.nregion{
+    border: 2px solid gray;
+    padding: 10px;
+}
+*/
