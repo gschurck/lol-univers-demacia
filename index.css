@@ -42,7 +42,7 @@ h2{
 }
 
 .region{
-    padding-top: 50px;
+    padding-top: 100px;
     display: flex;   /* inline ? block ?*/
 justify-content: space-around;
     align-items: center;
