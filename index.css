@@ -14,12 +14,12 @@ url("media/fonts/Beaufort for LOL Bold/12420e8c141ca7c3dff41de2d59df13e.woff") f
 url("media/fonts/Beaufort for LOL Bold/12420e8c141ca7c3dff41de2d59df13e.ttf") format("truetype"),
 url("media/fonts/Beaufort for LOL Bold/12420e8c141ca7c3dff41de2d59df13e.svg#BeaufortforLOL-Bold") format("svg"); }
 
-@media screen and (max-width: 1500px) {
+@media screen and (max-width: 2000px) {
     body{
         background-size: 400%;
     }
 }
-@media screen and (min-width: 1500px) {
+@media screen and (min-width: 2000px) {
     body {
         background-size: 150%;
     }
