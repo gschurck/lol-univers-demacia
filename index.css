@@ -18,11 +18,23 @@ url("media/fonts/Beaufort for LOL Bold/12420e8c141ca7c3dff41de2d59df13e.svg#Beau
     body{
         background-size: 400%;
     }
+    
+.texte{
+				max-width: 80vw;
+    margin-left:10vw;
+    margin-right:10vw;}
+
 }
 @media screen and (min-width: 1000px) {
     body {
         background-size: 150%;
     }
+    
+.texte{
+				max-width: 60vw;
+    margin-left:20vw;
+    margin-right:20vw;}
+
 }
 body{
     background-image: url("media/images/map-background.png"), url("media/images/black_background.png");
@@ -41,8 +53,8 @@ h2{
     font-family: 'BeaufortforLOL-Bold';
 }
 
-.pagetitle{
-  
+.title{
+  text-align: center;
 }
 
 .runeterra{
@@ -58,9 +70,17 @@ justify-content: space-around;
     text-align: center;
 }
 
-/*
+
 .nregion{
-    border: 2px solid gray;
+    border: 2px solid #ffb72e;
+    background: #bbd09e13;
     padding: 10px;
+    height: 250px; /*30vh;*/
+    width:  160px;/*40vw;*/
+    border-radius: 10px;
 }
-*/
+
+p{
+			text-align: center;
+			font-family: 'BeaufortforLOL-Bold';
+				}
