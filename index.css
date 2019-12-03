@@ -41,6 +41,8 @@ body{
     background-position: right;
     background-repeat: no-repeat;
     color: white;
+        font-family: 'BeaufortforLOL-Bold';
+    font-weight: normal;
 }
 
 h1 {
@@ -67,7 +69,7 @@ h2{
 .region{
     padding-top: 100px;
     display: flex;   /* inline ? block ?*/
-justify-content: space-around;
+    justify-content: space-around;
     align-items: center;
     text-align: center;
 }
@@ -91,6 +93,7 @@ justify-content: space-around;
   transition-duration: 0.3s
   -webkit-transition-property: transform;
   transition-property: transform;
+  /*align-items: center;*/
 }
 
 p{
@@ -111,12 +114,108 @@ h1.title {
 }
 
 .navbar {
-  
+  text-align: center;
+  display: flex;
+  justify-content: space-around;
 }
 
 .page {
 	display: inline-block;
 	text-align: center;
+  justify-content: space-around;
+
+  /* ANIMATIONS*/
+  
+}
+
+.page:hover {
+  -webkit-animation: shadow-drop-2-center 0.4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+          animation: shadow-drop-2-center 0.4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+@-webkit-keyframes shadow-drop-2-center {
+  0% {
+    -webkit-transform: translateZ(0);
+            transform: translateZ(0);
+    -webkit-box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+            box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+  }
+  100% {
+    -webkit-transform: translateZ(50px);
+            transform: translateZ(50px);
+    -webkit-box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.35);
+            box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.35);
+  }
+}
+@keyframes shadow-drop-2-center {
+  0% {
+    -webkit-transform: translateZ(0);
+            transform: translateZ(0);
+    -webkit-box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+            box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+  }
+  100% {
+    -webkit-transform: translateZ(50px);
+            transform: translateZ(50px);
+    -webkit-box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.35);
+            box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.35);
+  }
+}
+
+}
+
+
+.logo {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate3d(-50%, -50%, 0);
+  background-color: rgba(#000, 0.5);
+  width: 100%;
+  max-width: 600px;
+  padding: 5px;
+  border: 2px solid $color-alpha;
+  &:before, &:after {
+    content: "•";
+    position: absolute;
+    width: 14px;
+    height: 14px;
+    font-size: 14px;
+    color: $color-alpha;
+    border: 2px solid $color-alpha;
+    line-height: 12px;
+    top: 5px;
+    text-align: center;
+  }
+  &:before {
+    left: 5px;
+  }
+  &:after {
+    right: 5px;
+  }
+  .box {
+    position: relative;
+    border: 2px solid $color-alpha;
+    padding: 40px;
+    &:before, &:after {
+      content: "•";
+      position: absolute;
+      width: 14px;
+      height: 14px;
+      font-size: 14px;
+      color: $color-alpha;
+      border: 2px solid $color-alpha;
+      line-height: 12px;
+      bottom: -2px;
+      text-align: center;
+    }
+    &:before {
+      left: -2px;
+    }
+    &:after {
+      right: -2px;
+    }
+  }
 }
 
 /*
