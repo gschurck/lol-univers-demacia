@@ -52,6 +52,7 @@ h1 {
 h2{
     font-family: 'BeaufortforLOL-Bold';
     text-align: center;
+    font-weight: bold; 
 }
 
 .title{
@@ -87,16 +88,48 @@ justify-content: space-around;
   transform: perspective(1px) translateZ(0);
   box-shadow: 0 0 1px rgba(0, 0, 0, 0);
   -webkit-transition-duration: 0.3s;
-  transition-duration: 0.3s;
+  transition-duration: 0.3s
   -webkit-transition-property: transform;
   transition-property: transform;
 }
 
 p{
-			text-align: center;
-			font-family: 'BeaufortforLOL-Bold';
-				}
+	text-align: center;
+	font-family: 'BeaufortforLOL-Bold';
+	font-size: 20px;
+}
+
+
 .nregion:hover, .nregion:focus, .nregion:active {
   -webkit-transform: scale(1.1);
   transform: scale(1.1);
 }
+
+h1.title {
+	font-size: 50px;
+	color: #d6b551;
+}
+
+.navbar {
+  
+}
+
+.page {
+	display: inline-block;
+	text-align: center;
+}
+
+/*
+@keyframes floating {
+    from { transform: translate(0,  0px); }
+    65%  { transform: translate(0, 10px); }
+    to   { transform: translate(0, -0px); }    
+}
+.logo {
+	    animation-name: floating;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    margin-left: 30px;
+    margin-top: 5px;
+}*/
