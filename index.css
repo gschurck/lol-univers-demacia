@@ -218,6 +218,33 @@ h1.title {
   }
 }
 
+.slide{
+    display: flex;
+    justify-content: center;
+}
+
+.affiche{
+    width: 50%;
+    height: auto;
+    transition: 1s;
+}
+
+.affiche:hover{
+    filter: blur(5px) grayscale(20%);
+}
+
+@keyframes AutoSlide {
+  0%, 15%, 100% {
+    left: 0px; /*1ère image*/
+  }
+  35%, 50% {
+    left: -150px; /*2ème image*/
+  }
+  70%, 85% {
+    left: -300px; /*3ème image*/
+  }
+}
+
 /*
 @keyframes floating {
     from { transform: translate(0,  0px); }
