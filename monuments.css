@@ -37,13 +37,28 @@ url("media/fonts/Beaufort for LOL Bold/12420e8c141ca7c3dff41de2d59df13e.svg#Beau
 
 }
 body{
+  /*
+  display: flex;
+    flex-flow: column;
+  height: 100%;
+  flex-grow : 1;
+      display:table;
+    width:100%;
+  background-image: url("media/images/grand_plaza.jpg");*/
+  
     background-image: url("media/images/map-background.png"), url("media/images/black_background.png");
-    background-position: right;
-    background-repeat: no-repeat;
+        background-repeat: no-repeat;
+        background-position: top;
     color: white;
         font-family: 'BeaufortforLOL-Bold';
     font-weight: normal;
 }
+/*
+div.bg {
+  background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 1)) 10%;
+    height: 100%;
+    width: 100%;
+}*/
 
 h1 {
     font-family: 'BeaufortforLOL-Bold';
@@ -274,8 +289,16 @@ img.img_monument {
   border-radius: 5%;
 }
 
+.monuments {
+  display: inline-block;
+  justify-content: space-around;
+  align-items: center;
+
+}
+
 .each_monument {
   text-align: center;
+  margin-bottom: 100px;
 }
 
 /*
