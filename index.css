@@ -1,20 +1,4 @@
-/* @font-face {
-    font-family: 'ringbearermedium';
-    src: url('media/webfontkit/ringm___-webfont.woff2') format('woff2'),
-         url('media/webfontkit/ringm___-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;}*/
-
-@font-face {
-font-family: "BeaufortforLOL-Bold";
-src: url("media/fonts/Beaufort for LOL Bold/12420e8c141ca7c3dff41de2d59df13e.eot");
-src: url("media/fonts/Beaufort for LOL Bold/12420e8c141ca7c3dff41de2d59df13e.eot?#iefix") format("embedded-opentype"),
-url("media/fonts/Beaufort for LOL Bold/12420e8c141ca7c3dff41de2d59df13e.woff2") format("woff2"),
-url("media/fonts/Beaufort for LOL Bold/12420e8c141ca7c3dff41de2d59df13e.woff") format("woff"),
-url("media/fonts/Beaufort for LOL Bold/12420e8c141ca7c3dff41de2d59df13e.ttf") format("truetype"),
-url("media/fonts/Beaufort for LOL Bold/12420e8c141ca7c3dff41de2d59df13e.svg#BeaufortforLOL-Bold") format("svg"); }
-
-@media screen and (max-width: 1000px) {
+  @media screen and (max-width: 1000px) {
     body{
         background-size: 400%;
     }
@@ -37,11 +21,14 @@ url("media/fonts/Beaufort for LOL Bold/12420e8c141ca7c3dff41de2d59df13e.svg#Beau
 
 }
 body{
+    background-color: #0a0a0c;
+    /*background-color: white;*/
     background-image: url("media/images/map-background.png"), url("media/images/black_background.png");
-    background-position: right;
+    background-position: top;
     background-repeat: no-repeat;
+    background-size: 100;
     color: white;
-        font-family: 'BeaufortforLOL-Bold';
+    font-family: 'BeaufortforLOL-Bold';
     font-weight: normal;
 }
 
