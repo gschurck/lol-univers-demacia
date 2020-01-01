@@ -1,7 +1,7 @@
 /*--------------- MAIN DISPLAY -----------*/
 
 body{
-    padding-top: 150px;
+    padding-top: 100px;
     background-color: #0a0a0c;
     /*background-color: white;*/
     background-image: url("media/images/map-background.png"), url("media/images/black_background.png");
