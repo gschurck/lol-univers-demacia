@@ -1,6 +1,7 @@
 /*--------------- MAIN DISPLAY -----------*/
 
 body{
+    padding-top: 150px;
     background-color: #0a0a0c;
     /*background-color: white;*/
     background-image: url("media/images/map-background.png"), url("media/images/black_background.png");
@@ -11,7 +12,6 @@ body{
     font-family: 'BeaufortforLOL-Bold';
     font-weight: normal;
 }
-
 
 
 /* -------------------  POLICE   ---------------*/
@@ -156,6 +156,101 @@ input[type=checkbox] + label {
 input[type=checkbox]:checked + label {
   color: #f00;
   font-style: normal;
+}
+/* ------------------ BORDER -----------------------*/
+
+
+.page {
+    display: inline-block;
+    text-align: center;
+    justify-content: space-around;
+    padding-right: 10px;
+}
+
+
+
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,700);
+/*
+ * {
+     margin: 0;
+     padding: 0;
+     border: 0;
+     box-sizing: border-box;
+}*/
+
+
+ .box1 {
+     position: fixed;
+     top: 4.15%;
+     left: 50%;
+     transform: translate3d(-50%, -50%, 0);
+     background-color: rgba(0, 0, 0, 0.5);
+     width: 100%;
+     max-width: 97vw;
+     padding: 5px;
+     border: 2px solid #b78846;
+}
+ .box1:before, .box1:after {
+     content: "•";
+     position: absolute;
+     width: 14px;
+     height: 14px;
+     font-size: 14px;
+     color: #b78846;
+     border: 2px solid #b78846;
+     line-height: 12px;
+     top: 5px;
+     text-align: center;
+}
+ .box1:before {
+     left: 5px;
+}
+ .box1:after {
+     right: 5px;
+}
+ .box1 .navbar {
+     position: relative;
+     border: 2px solid #b78846;
+}
+ .box1 .navbar:before, .box1 .navbar:after {
+     content: "•";
+     position: absolute;
+     width: 14px;
+     height: 14px;
+     font-size: 14px;
+     color: #b78846;
+     border: 2px solid #b78846;
+     line-height: 12px;
+     bottom: -2px;
+     text-align: center;
+}
+ .box1 .navbar:before {
+     left: -2px;
+}
+ .box1 .navbar:after {
+     right: -2px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
