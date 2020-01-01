@@ -1,3 +1,21 @@
+/*--------------- MAIN DISPLAY -----------*/
+
+body{
+    background-color: #0a0a0c;
+    /*background-color: white;*/
+    background-image: url("media/images/map-background.png"), url("media/images/black_background.png");
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: 100;
+    color: white;
+    font-family: 'BeaufortforLOL-Bold';
+    font-weight: normal;
+}
+
+
+
+/* -------------------  POLICE   ---------------*/
+
 @font-face {
 font-family: "BeaufortforLOL-Bold";
 src: url("media/fonts/Beaufort for LOL Bold/12420e8c141ca7c3dff41de2d59df13e.eot");
@@ -8,31 +26,25 @@ url("media/fonts/Beaufort for LOL Bold/12420e8c141ca7c3dff41de2d59df13e.ttf") fo
 url("media/fonts/Beaufort for LOL Bold/12420e8c141ca7c3dff41de2d59df13e.svg#BeaufortforLOL-Bold") format("svg"); }
 
 
-/* ----------- CONTACT FORM --------------*/
-/*
-body {
-    background-color: #444442;
-    padding-top: 85px;
-}
-
-h5 {
-    font-family: 'Poppins', sans-serif, 'arial';
-    font-weight: 600;
-    font-size: 72px;
-    color: white;
+h1 {
+    font-family: 'BeaufortforLOL-Bold';
+    font-weight: bold;
+    font-style: normal;
     text-align: center;
 }
 
-h6 {
-    font-family: 'Roboto', sans-serif, 'arial';
-    font-weight: 400;
-    font-size: 20px;
-    color: #9b9b9b;
-    line-height: 1.5;
+h2{
+    font-family: 'BeaufortforLOL-Bold';
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px; 
 }
-*/
+
+/* ----------- CONTACT FORM --------------*/
+
 .container {
-	margin-top: 50vh;
+    margin-top: 300px;
+    margin-bottom: 700px;
 }
 
 /* ------ inputs -------*/
@@ -112,7 +124,7 @@ textarea {
     padding: 7px 35px;
     border-radius: 60px;
     display: inline-block;
-    background-color: #4b8cfb;
+    background-color: #887141;
     color: white;
     font-size: 18px;
     cursor: pointer;
@@ -144,4 +156,92 @@ input[type=checkbox] + label {
 input[type=checkbox]:checked + label {
   color: #f00;
   font-style: normal;
+
+
+
+
+
+
+/* --------------------------------- ANIMATIONS --------------------*/
+
+
+@-webkit-keyframes bounceInUp {
+  from,
+  60%,
+  75%,
+  90%,
+  to {
+    -webkit-animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+    animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+  }
+
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(0, 3000px, 0);
+    transform: translate3d(0, 3000px, 0);
+  }
+
+  60% {
+    opacity: 1;
+    -webkit-transform: translate3d(0, -20px, 0);
+    transform: translate3d(0, -20px, 0);
+  }
+
+  75% {
+    -webkit-transform: translate3d(0, 10px, 0);
+    transform: translate3d(0, 10px, 0);
+  }
+
+  90% {
+    -webkit-transform: translate3d(0, -5px, 0);
+    transform: translate3d(0, -5px, 0);
+  }
+
+  to {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+@keyframes bounceInUp {
+  from,
+  60%,
+  75%,
+  90%,
+  to {
+    -webkit-animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+    animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+  }
+
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(0, 3000px, 0);
+    transform: translate3d(0, 3000px, 0);
+  }
+
+  60% {
+    opacity: 1;
+    -webkit-transform: translate3d(0, -20px, 0);
+    transform: translate3d(0, -20px, 0);
+  }
+
+  75% {
+    -webkit-transform: translate3d(0, 10px, 0);
+    transform: translate3d(0, 10px, 0);
+  }
+
+  90% {
+    -webkit-transform: translate3d(0, -5px, 0);
+    transform: translate3d(0, -5px, 0);
+  }
+
+  to {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+.bounceInUp {
+  -webkit-animation-name: bounceInUp;
+  animation-name: bounceInUp;
 }
