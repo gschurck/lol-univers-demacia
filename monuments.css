@@ -95,12 +95,6 @@ h2{
   /*align-items: center;*/
 }
 
-p{
-	text-align: left;
-	font-family: 'BeaufortforLOL-Bold';
-	font-size: 18px;
-}
-
 
 .nregion:hover, .nregion:focus, .nregion:active {
   -webkit-transform: scale(1.1);
@@ -270,7 +264,8 @@ img.img_monument {
   margin-left: auto;
   margin-right: auto;
   width: 50%;
-  border-radius: 5%;
+  border-radius: 10px;
+  transition: 1s;
 }
 
 .monuments {
@@ -280,19 +275,78 @@ img.img_monument {
 
 }
 
+#description_1 {
+  visibility: hidden;
+  opacity: 0;
+  transition: visibility 1s, opacity 1s linear;
+
+}
+
+.img_1:hover .img_monument_1{
+  filter: blur(3px) grayscale(20%) brightness(50%);
+}
+
+.img_1:hover #description_1 {
+  visibility: visible;
+  opacity: 1;
+}
+
+#description_2 {
+  visibility: hidden;
+  opacity: 0;
+  transition: visibility 1s, opacity 1s linear;
+
+}
+
+.img_2:hover .img_monument_2{
+  filter: blur(3px) grayscale(20%) brightness(50%);
+}
+
+.img_2:hover #description_2 {
+  visibility: visible;
+  opacity: 1;
+}
+
+#description_3 {
+  visibility: hidden;
+  opacity: 0;
+  transition: visibility 1s, opacity 1s linear;
+
+}
+
+.img_3:hover .img_monument_3{
+  filter: blur(3px) grayscale(20%) brightness(50%);
+}
+
+.img_3:hover #description_3 {
+  visibility: visible;
+  opacity: 1;
+}
+
+
 .each_monument {
   text-align: center;
+position: relative;
   margin-bottom: 100px;
 }
 
-/*
-.dropdown:hover .dropdown-content {
-  display: block;
+p{
+  width: 400px;
+  text-align: center;
+  font-family: 'BeaufortforLOL-Bold';
+  font-size: xx-large;
+  color: #b78846;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
 }
-*/
 
-
-
+@-webkit-keyframes brightness {
+  0%, 100%  { -webkit-filter: brightness(none); }
+  50% { -webkit-filter: brightness(100); }
+}
 
 
 

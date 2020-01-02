@@ -186,11 +186,12 @@ input[type=checkbox]:checked + label {
      top: 4.5%;
      left: 50%;
      transform: translate3d(-50%, -50%, 0);
-     background-color: rgba(0, 0, 0, 0.8);
+     background-color: rgba(18, 18, 18, 0.9);
      width: 100%;
      max-width: 97vw;
      padding: 5px;
      border: 2px solid #b78846;
+     border-radius: 5px;
 }
  .box1:before, .box1:after {
      content: "•";
