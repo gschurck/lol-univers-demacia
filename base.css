@@ -13,7 +13,9 @@ body{
     font-weight: normal;
 }
 
-
+a {
+    color: white;
+}
 /* -------------------  POLICE   ---------------*/
 
 @font-face {
