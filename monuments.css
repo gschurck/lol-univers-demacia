@@ -67,42 +67,6 @@ h2{
     justify-content: center;
 }
 
-.region{
-    padding-top: 100px;
-    display: flex;   /* inline ? block ?*/
-    justify-content: space-around;
-    align-items: center;
-    text-align: center;
-}
-
-
-.nregion{
-    border: 2px solid #ffb72e;
-    background: #bbd09e13;
-    padding: 10px;
-    height: 250px; /*30vh;*/
-    width:  160px;/*40vw;*/
-    border-radius: 10px;
-    
-    /* ANIMATIONS*/
-      display: inline-block;
-  vertical-align: middle;
-  -webkit-transform: perspective(1px) translateZ(0);
-  transform: perspective(1px) translateZ(0);
-  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
-  -webkit-transition-duration: 0.3s;
-  transition-duration: 0.3s
-  -webkit-transition-property: transform;
-  transition-property: transform;
-  /*align-items: center;*/
-}
-
-
-.nregion:hover, .nregion:focus, .nregion:active {
-  -webkit-transform: scale(1.1);
-  transform: scale(1.1);
-}
-
 h1.title {
 	font-size: 50px;
 	color: #d6b551;
@@ -156,62 +120,6 @@ h1.title {
             box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.35);
   }
 }
-
-}
-
-
-.logo {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate3d(-50%, -50%, 0);
-  background-color: rgba(#000, 0.5);
-  width: 100%;
-  max-width: 600px;
-  padding: 5px;
-  border: 2px solid $color-alpha;
-  &:before, &:after {
-    content: "•";
-    position: absolute;
-    width: 14px;
-    height: 14px;
-    font-size: 14px;
-    color: $color-alpha;
-    border: 2px solid $color-alpha;
-    line-height: 12px;
-    top: 5px;
-    text-align: center;
-  }
-  &:before {
-    left: 5px;
-  }
-  &:after {
-    right: 5px;
-  }
-  .box {
-    position: relative;
-    border: 2px solid $color-alpha;
-    padding: 40px;
-    &:before, &:after {
-      content: "•";
-      position: absolute;
-      width: 14px;
-      height: 14px;
-      font-size: 14px;
-      color: $color-alpha;
-      border: 2px solid $color-alpha;
-      line-height: 12px;
-      bottom: -2px;
-      text-align: center;
-    }
-    &:before {
-      left: -2px;
-    }
-    &:after {
-      right: -2px;
-    }
-  }
-}
 /*  NAVBAR ------------------------------------------ */
 
 ul {
@@ -263,17 +171,7 @@ div a:visited {
 .each_monument {
   text-align: center;
 }
-/*
-img.img_monument {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
-  border-radius: 10px;
-  transition: 1s;
 
-}
-*/
 .img_mon {
   width: 60%;
   margin-left: 20%;
