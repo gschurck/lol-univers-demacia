@@ -258,7 +258,10 @@ div a:visited {
 }
 
 /*--------------------------  PAGE 2 MONUMENTS -------------*/
-
+.each_monument {
+  text-align: center;
+}
+/*
 img.img_monument {
   display: block;
   margin-left: auto;
@@ -266,20 +269,42 @@ img.img_monument {
   width: 50%;
   border-radius: 10px;
   transition: 1s;
+
+}
+*/
+.img_1 {
+  width: 60%;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+.img_2 {
+  width: 60%;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+.img_3 {
+  width: 60%;
+  margin-left: 20%;
+  margin-right: 20%;
 }
 
 .monuments {
   display: inline-block;
   justify-content: space-around;
   align-items: center;
-
+text-align: center;
 }
 
-#description_1 {
+.description {
   visibility: hidden;
   opacity: 0;
-  transition: visibility 1s, opacity 1s linear;
+  transition: visibility 0.5s, opacity 0.5s linear;
+}
 
+.img_monument_1 {
+  transition: 1s;
 }
 
 .img_1:hover .img_monument_1{
@@ -291,11 +316,8 @@ img.img_monument {
   opacity: 1;
 }
 
-#description_2 {
-  visibility: hidden;
-  opacity: 0;
-  transition: visibility 1s, opacity 1s linear;
-
+.img_monument_2 {
+  transition: 1s;
 }
 
 .img_2:hover .img_monument_2{
@@ -307,11 +329,8 @@ img.img_monument {
   opacity: 1;
 }
 
-#description_3 {
-  visibility: hidden;
-  opacity: 0;
-  transition: visibility 1s, opacity 1s linear;
-
+.img_monument_3 {
+  transition: 1s;
 }
 
 .img_3:hover .img_monument_3{
@@ -342,12 +361,12 @@ p{
   transform: translate(-50%, -50%);
 
 }
-
+/*
 @-webkit-keyframes brightness {
   0%, 100%  { -webkit-filter: brightness(none); }
   50% { -webkit-filter: brightness(100); }
 }
-
+*/
 
 
 
