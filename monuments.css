@@ -196,6 +196,14 @@ text-align: center;
   opacity: 1;
 }
 
+.img_4:hover #img_monument_4{
+  filter: blur(3px) grayscale(20%) brightness(50%);
+}
+
+.img_4:hover #description_4 {
+  visibility: visible;
+  opacity: 1;
+}
 
 .each_monument {
   text-align: center;
