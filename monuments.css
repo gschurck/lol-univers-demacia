@@ -1,27 +1,3 @@
-@media screen and (max-width: 1000px) {
-    body{
-        background-size: 400%;
-    }
-    
-.texte{
-				max-width: 80vw;
-    margin-left:10vw;
-    margin-right:10vw;}
-
-}
-
-
-@media screen and (min-width: 1000px) {
-    body {
-        background-size: 150%;
-    }
-    
-.texte{
-				max-width: 40vw;
-    margin-left:30vw;
-    margin-right:30vw;}
-
-}
 body{
   /*
   display: flex;

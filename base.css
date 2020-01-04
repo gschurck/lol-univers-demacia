@@ -43,6 +43,12 @@ h2{
 
 /* --------------- MOBILE --------------*/
 /*
+@media screen and (max-width: 600px) {
+    .box1 {
+        display: none;
+    }
+}
+*/
   @media screen and (max-width: 1000px) {
     body{
         background-size: 400%;
@@ -66,7 +72,6 @@ h2{
 
 }
 
-*/
 
 /* ----------- CONTACT FORM --------------*/
 
@@ -259,7 +264,9 @@ input[type=checkbox]:checked + label {
 
 
 
-
+.pagetitle {
+    margin-top: 50px;
+}
 
 
 
