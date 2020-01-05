@@ -6,10 +6,24 @@
     display: flex;
     justify-content: center;
 }
+
+@media screen and (max-width: 600px) {
+  p{
+  text-align: left;
+  font-family: 'BeaufortforLOL-Bold';
+  /*font-size: 18px;*/
+  font-size: 3.8vw;
+}
+}
+
+@media screen and (min-width: 600px) {
+
 p{
-	text-align: left;
-	font-family: 'BeaufortforLOL-Bold';
-	font-size: 18px;
+  text-align: left;
+  font-family: 'BeaufortforLOL-Bold';
+  /*font-size: 18px;*/
+  font-size: 18px;
+}
 }
 
 
