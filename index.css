@@ -11,8 +11,8 @@
   p{
   text-align: left;
   font-family: 'BeaufortforLOL-Bold';
-  /*font-size: 18px;*/
-  font-size: 3.8vw;
+  /*font-siz518px;*/
+  font-size: 5vw;
 }
 }
 
@@ -73,61 +73,6 @@ h1.title {
   }
 }
 
-/*
-.logo {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate3d(-50%, -50%, 0);
-  background-color: rgba(#000, 0.5);
-  width: 100%;
-  max-width: 600px;
-  padding: 5px;
-  border: 2px solid $color-alpha;
-  &:before, &:after {
-    content: "•";
-    position: absolute;
-    width: 14px;
-    height: 14px;
-    font-size: 14px;
-    color: $color-alpha;
-    border: 2px solid $color-alpha;
-    line-height: 12px;
-    top: 5px;
-    text-align: center;
-  }
-  &:before {
-    left: 5px;
-  }
-  &:after {
-    right: 5px;
-  }
-  .box {
-    position: relative;
-    border: 2px solid $color-alpha;
-    padding: 40px;
-    &:before, &:after {
-      content: "•";
-      position: absolute;
-      width: 14px;
-      height: 14px;
-      font-size: 14px;
-      color: $color-alpha;
-      border: 2px solid $color-alpha;
-      line-height: 12px;
-      bottom: -2px;
-      text-align: center;
-    }
-    &:before {
-      left: -2px;
-    }
-    &:after {
-      right: -2px;
-    }
-  }
-}
-*/
-/*  NAVBAR ------------------------------------------ */
 
 ul {
   list-style-type: none;
@@ -174,47 +119,9 @@ div a:visited {
   color: white;
 }
 
-/*--------------------------  PAGE 2 MONUMENTS -------------*/
-
-img.img_monument {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
-  border-radius: 5%;
-}
-
-.each_monument {
-  text-align: center;
-}
-
-/*
-.dropdown:hover .dropdown-content {
-  display: block;
-}
-*/
 
 
 
 
 
 
-
-
-
-
-/*   --------------------------------------------   */
-/*
-@keyframes floating {
-    from { transform: translate(0,  0px); }
-    65%  { transform: translate(0, 10px); }
-    to   { transform: translate(0, -0px); }    
-}
-.logo {
-	    animation-name: floating;
-    animation-duration: 4s;
-    animation-iteration-count: infinite;
-    animation-timing-function: ease-in-out;
-    margin-left: 30px;
-    margin-top: 5px;
-}*/

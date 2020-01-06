@@ -50,7 +50,7 @@ text-decoration: none;
 
   @media screen and (max-width: 1000px) {
     body{
-        background-size: 200%;
+        background-size: 400%;
 
     }
     
@@ -93,6 +93,18 @@ h3 {
     visibility: hidden;
 }
 
+
+.input-container {
+    width: 60vw;
+    /*
+    margin-left: 10%;
+    margin-right: 10%;
+    */
+    transform: translate3d(15%,0 , 0);
+}
+
+
+
 /*--------------- ECRIRE ICI -------------------*/
 }
 
@@ -127,6 +139,14 @@ h3 {
 .pagetitle {
     margin-top: 50px;
 }
+
+
+.input-container {
+    width: 650px;
+    max-width: 100%;
+    margin: 20px auto 25px auto;
+}
+
 }
 
 
@@ -191,19 +211,12 @@ textarea:focus { outline: 0; }
 
 input:focus ~ span,
 textarea:focus ~ span {
-    width: 100%;
-    transition: all 0.075s ease;
+    width: 100    transition: all 0.075s ease;
 }
 
 textarea {
     width: 100%;
     min-height: 15em;
-}
-
-.input-container {
-    width: 650px;
-    max-width: 100%;
-    margin: 20px auto 25px auto;
 }
 
 .submit-btn {

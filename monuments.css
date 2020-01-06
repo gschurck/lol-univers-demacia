@@ -141,9 +141,6 @@ div a:visited {
 }
 
 .img_mon {
-  width: 60%;
-  margin-left: 20%;
-  margin-right: 20%;
   border-radius: 10px;
   transition: 1s;
 }
@@ -162,7 +159,7 @@ text-align: center;
 }
 
 .img_1:hover #img_monument_1{
-  filter: blur(3px) grayscale(20%) brightness(50%);
+  filter: blur(3px) grayscale(20%) brightness(40%);
 }
 
 .img_1:hover #description_1 {
@@ -171,7 +168,7 @@ text-align: center;
 }
 
 .img_2:hover #img_monument_2{
-  filter: blur(3px) grayscale(20%) brightness(50%);
+  filter: blur(3px) grayscale(20%) brightness(40%);
 }
 
 .img_2:hover #description_2 {
@@ -180,7 +177,7 @@ text-align: center;
 }
 
 .img_3:hover #img_monument_3{
-  filter: blur(3px) grayscale(20%) brightness(50%);
+  filter: blur(3px) grayscale(20%) brightness(40%);
 }
 
 .img_3:hover #description_3 {
@@ -189,7 +186,7 @@ text-align: center;
 }
 
 .img_4:hover #img_monument_4{
-  filter: blur(3px) grayscale(20%) brightness(50%);
+  filter: blur(3px) grayscale(20%) brightness(40%);
 }
 
 .img_4:hover #description_4 {
@@ -206,14 +203,43 @@ position: relative;
 p{
   text-align: center;
   font-family: 'BeaufortforLOL-Bold';
-  font-size: xx-large;
   color: #b78846;
   position: absolute;
-  top: 50%;
-  left: 50%;
   transform: translate(-50%, -50%);
 
 }
+
+
+  @media screen and (max-width: 1000px) {
+    .img_mon {
+        width: 80%;
+  margin-left: 10%;
+  margin-right: 10%;
+    }
+  p {
+      font-size: 4.5vw;
+        top: 57%;
+  left: 50%;
+    }
+}
+
+  @media screen and (min-width: 1000px) {
+    .img_mon {
+        width: 60%;
+  margin-left: 20%;
+  margin-right: 20%;
+    }
+    .description {
+        font-size: xx-large;
+    }
+    p {
+        top: 50%;
+  left: 50%;
+    }
+}
+
+
+
 /*
 @-webkit-keyframes brightness {
   0%, 100%  { -webkit-filter: brightness(none); }
