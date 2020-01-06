@@ -75,6 +75,7 @@ h3 {
 
 .menu-box {
     visibility: hidden;
+    transition: 0.000001s;
 }
 
 .mobile-box:focus ~ .menu-box {
@@ -86,6 +87,10 @@ h3 {
     text-align: center;
     justify-content: space-around;
     padding-right: 10px;
+}
+
+#close:active ~ .menu-box {
+    visibility: hidden;
 }
 
 /*--------------- ECRIRE ICI -------------------*/
@@ -313,7 +318,7 @@ input[type=checkbox]:checked + label {
 
  .mobile-box {
     position: absolute;
-     top: 3%;
+     top: 20px;
      left: 50%;
      transform: translate3d(-50%, -50%, 0);
      background-color: rgba(18, 18, 18, 0.9);
@@ -359,7 +364,7 @@ input[type=checkbox]:checked + label {
 
  .menu-box {
     position: absolute;
-     top: 20.5%;
+     top: 185px;
      left: 50%;
      transform: translate3d(-50%, -50%, 0);
      background-color: rgba(18, 18, 18, 0.9);
@@ -416,7 +421,9 @@ input[type=checkbox]:checked + label {
      right: -2px;
 }
 
-
+#close {
+    color: #b78846;
+}
 
 
 
