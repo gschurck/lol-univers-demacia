@@ -15,6 +15,14 @@ body{
 a {
     color: white;
 }
+
+.line {
+    border: 1px solid #b78846;
+    margin-left: -100px;
+    margin-right: -100px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
 /* -------------------  POLICE   ---------------*/
 
 @font-face {
@@ -182,7 +190,7 @@ h3 {
 /* ----------- CONTACT FORM --------------*/
 
 .container {
-    margin-top: 300px;
+    padding-top: 100px;
     margin-bottom: 700px;
 }
 
