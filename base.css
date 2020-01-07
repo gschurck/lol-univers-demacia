@@ -26,12 +26,21 @@ url("media/fonts/Beaufort for LOL Bold/12420e8c141ca7c3dff41de2d59df13e.woff") f
 url("media/fonts/Beaufort for LOL Bold/12420e8c141ca7c3dff41de2d59df13e.ttf") format("truetype"),
 url("media/fonts/Beaufort for LOL Bold/12420e8c141ca7c3dff41de2d59df13e.svg#BeaufortforLOL-Bold") format("svg"); }
 
+@font-face {
+    font-family: "Beaufort-Light";
+    src: url("media/fonts/Beaufort-Light/light.woff2");
+}
 
 h1 {
-    font-family: 'BeaufortforLOL-Bold';
+   /* font-family: 'BeaufortforLOL-Bold';*/
+   font-family: 'Beaufort-Light';
     font-weight: bold;
     font-style: normal;
     text-align: center;
+    letter-spacing: 5px;
+    font-size: 100px;
+        color: #d6b551;
+
 }
 
 h2{

@@ -27,11 +27,6 @@ p{
 }
 
 
-h1.title {
-	font-size: 50px;
-	color: #d6b551;
-}
-
 .navbar {
   text-align: center;
   display: flex;

@@ -22,12 +22,6 @@ div.bg {
     width: 100%;
 }*/
 
-h1 {
-    font-family: 'BeaufortforLOL-Bold';
-    font-weight: normal;
-    font-style: normal;
-}
-
 h2{
     font-family: 'BeaufortforLOL-Bold';
     text-align: center;
@@ -41,11 +35,6 @@ h2{
 .runeterra{
     display: flex;
     justify-content: center;
-}
-
-h1.title {
-	font-size: 50px;
-	color: #d6b551;
 }
 
 .navbar {
