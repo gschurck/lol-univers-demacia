@@ -44,10 +44,7 @@ h1 {
 h2{
     font-family: 'BeaufortforLOL-Bold';
     text-align: center;
-    font-weight: normal;
-      background: -webkit-linear-gradient(#eee, #333);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+    font-weight: bold;
 }
 h4 {
     text-align: center;
