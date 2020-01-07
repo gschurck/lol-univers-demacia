@@ -464,8 +464,8 @@ margin: 0 auto;
   height: 55px;
     animation: cssAnimation 0s 3s forwards;
   visibility: hidden;
-  padding-bottom: 5vh;
-  padding-top: 5vh;
+  padding-bottom: 3vh;
+  padding-top: 3vh;
 }
 .mousey {
   width: 3px;
