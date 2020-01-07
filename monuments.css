@@ -219,33 +219,3 @@ p{
   left: 50%;
     }
 }
-
-
-
-/*
-@-webkit-keyframes brightness {
-  0%, 100%  { -webkit-filter: brightness(none); }
-  50% { -webkit-filter: brightness(100); }
-}
-*/
-
-
-
-
-
-
-/*   --------------------------------------------   */
-/*
-@keyframes floating {
-    from { transform: translate(0,  0px); }
-    65%  { transform: translate(0, 10px); }
-    to   { transform: translate(0, -0px); }    
-}
-.logo {
-	    animation-name: floating;
-    animation-duration: 4s;
-    animation-iteration-count: infinite;
-    animation-timing-function: ease-in-out;
-    margin-left: 30px;
-    margin-top: 5px;
-}*/
