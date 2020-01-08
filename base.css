@@ -53,7 +53,8 @@ h2{
     font-family: 'BeaufortforLOL-Bold';
     text-align: center;
     font-weight: normal;
-    background: -webkit-linear-gradient(#eee, #333);
+    background: -webkit-linear-gradient(#FFFFFF, #5e5e5e);
+    /*background: -webkit-linear-gradient(#eee, #333);*/
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
