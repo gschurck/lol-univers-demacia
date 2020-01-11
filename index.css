@@ -1,3 +1,8 @@
+@font-face {
+    font-family: "Beaufort-Regular";
+    src: url("media/fonts/Beaufort-Light/regular.woff2");
+}
+
 .title{
   text-align: center;
 }
@@ -10,19 +15,30 @@
 @media screen and (max-width: 600px) {
   p{
   text-align: left;
-  font-family: 'BeaufortforLOL-Bold';
+  font-family: 'Beaufort-Light';
   /*font-siz518px;*/
-  font-size: 5vw;
+  font-size: 4vw;
+  text-align: justify;
+
 }
+h2 {
+  font-size: 9vw;
+}
+
 }
 
 @media screen and (min-width: 600px) {
 
 p{
   text-align: left;
-  font-family: 'BeaufortforLOL-Bold';
+
+  /*font-family: 'BeaufortforLOL-Bold';*/
+
+  font-family: 'Beaufort-Light';
   font-style: normal;
-  font-size: 23px;
+  font-size: 20px;
+  line-height: 25px;
+  text-align: justify;
 }
 }
 

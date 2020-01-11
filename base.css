@@ -3,13 +3,13 @@
 body{
     padding-top: 100px;
     background-color: #0a0a0c;
-    /*background-color: white;*/
     background-image: url("media/images/map-background.png"), url("media/images/black_background.png");
     background-position: top;
     background-repeat: no-repeat;
     color: white;
     font-family: 'BeaufortforLOL-Bold';
     font-weight: normal;
+    -webkit-font-smoothing: antialiased;
 }
 
 a {
@@ -23,18 +23,11 @@ a {
     margin-top: 200px;
     margin-bottom: 100px;
 }
-.line_div {
-    margin-bottom: 70px;
-}
-
-.big_line {
-    position: absolute;
-     left: 50.15%;
-     transform: translate3d(-50%, -50%, 0);
-}
 
 .contact_line {
-    margin-top: 100px;
+display: block;
+    max-width: 100%;
+
 }
 
 /* -------------------  POLICE   ---------------*/
@@ -147,8 +140,13 @@ h3 {
     transform: translate3d(15%,0 , 0);
 }
 
-
-
+.contact_line {
+        margin: 0 auto;
+        margin-top: 100px;
+}
+.container {
+    margin-bottom: 300px;
+}
 /*--------------- ECRIRE ICI -------------------*/
 }
 
@@ -200,17 +198,23 @@ h3 {
     margin: 20px auto 25px auto;
 }
 
-}
-
-
-/* ----------- CONTACT FORM --------------*/
-#form {
-    margin-top: 200px;
+.contact_line {
+        margin: 0 auto;
+        margin-top: 200px;
 }
 
 .container {
     margin-bottom: 700px;
 }
+
+}
+
+
+/* ----------- CONTACT FORM --------------*/
+#form {
+    margin-top: 100px;
+}
+
 
 /* ------ inputs -------*/
 
