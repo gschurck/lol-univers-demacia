@@ -182,15 +182,21 @@ position: relative;
   margin-bottom: 200px;
 }
 
-p{
+p.description{
   text-align: center;
   font-family: 'BeaufortforLOL-Bold';
   color: #b78846;
   position: absolute;
   transform: translate(-50%, -50%);
-
 }
 
+p.foot {
+  font-family: 'Beaufort-Light';
+  font-style: normal;
+  font-size: 20px;
+  line-height: 25px;
+  text-align: center;
+}
 
   @media screen and (max-width: 1000px) {
     .img_mon {
