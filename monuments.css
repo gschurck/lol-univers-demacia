@@ -1,13 +1,4 @@
 body{
-  /*
-  display: flex;
-    flex-flow: column;
-  height: 100%;
-  flex-grow : 1;
-      display:table;
-    width:100%;
-  background-image: url("media/images/grand_plaza.jpg");*/
-  
     background-image: url("media/images/map-background.png"), url("media/images/black_background.png");
         background-repeat: no-repeat;
         background-position: top;
@@ -15,12 +6,7 @@ body{
         font-family: 'BeaufortforLOL-Bold';
     font-weight: normal;
 }
-/*
-div.bg {
-  background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 1)) 10%;
-    height: 100%;
-    width: 100%;
-}*/
+
 .title{
   text-align: center;
 }
@@ -204,10 +190,10 @@ p.foot {
   margin-left: 10%;
   margin-right: 10%;
     }
-  p {
+  p.description {
       font-size: 4.5vw;
-        top: 57%;
-  left: 50%;
+      top: 57%;
+      left: 50%;
     }
 }
 
@@ -220,8 +206,8 @@ p.foot {
     .description {
         font-size: xx-large;
     }
-    p {
+    p.description {
         top: 50%;
-  left: 50%;
+      left: 50%;
     }
 }
