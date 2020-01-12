@@ -73,6 +73,9 @@ a {
 text-decoration: none;
 }
 
+p.foot{
+    text-align: center;
+}
 
 /* --------------- MOBILE --------------*/
 
