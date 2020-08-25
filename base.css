@@ -321,16 +321,15 @@ input[type=checkbox]:checked + label {
 /* ------------------ BORDER -----------------------*/
 
  .box1 {
-    position: absolute;
-     top: 4.2%;
-     left: 50%;
-     transform: translate3d(-50%, -50%, 0);
+    position: fixed;
+     top: 0;
      background-color: rgba(18, 18, 18, 0.9);
      width: 100%;
      max-width: 98vw;
      padding: 5px;
      border: 2px solid #b78846;
      border-radius: 5px;
+     z-index: 10;
 }
  .box1:before, .box1:after {
      content: "•";
